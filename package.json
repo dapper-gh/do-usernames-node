@@ -1,0 +1,25 @@
+{
+  "name": "do-usernames",
+  "version": "1.0.1",
+  "description": "Get a random username from the DigitalOcean API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "mocha"
+  },
+  "bin": {
+    "do-usernames": "./bin.js"
+  },
+  "keywords": [
+    "digitalocean",
+    "username",
+    "usernames",
+    "api"
+  ],
+  "author": "David Stroud",
+  "license": "BSD-2-Clause-Patent",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.2.0"
+  }
+}
