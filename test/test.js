@@ -16,6 +16,14 @@ describe("Basic username generation", () => {
       assert.equal(name[0].toUpperCase(), name[0]);
     }
   });
+
+  it("Generates usernames under size limit", () => {
+    const generator = new Generator();
+    generator.setSize(16);
+    for (const _ of Array(256)) { // The generator is random, so this mostly eliminates randomness.
+      assert(generator.getName().length <= 16, "Name length is not 16");
+    }
+  });
 });
 
 describe("Invalid input", () => {
