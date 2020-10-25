@@ -1,7 +1,7 @@
 {
   "name": "do-usernames",
-  "version": "1.0.1",
-  "description": "Get a random username from the DigitalOcean API",
+  "version": "1.0.2",
+  "description": "Get a random DigitalOcean-style username",
   "main": "index.js",
   "scripts": {
     "start": "node .",

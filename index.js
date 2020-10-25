@@ -11,7 +11,7 @@ class Generator {
   static COLORS = "blue blueGreen darkCyan electricBlue greenBlue lightCyan lightSeaGreen seaGreen turquoise aqua aquamarine teal cyan gray darkBlue cerulean azure lapis navy".split(" ");
 
   static SEA_LIST = [...Generator.SEA_OBJECTS, ...Generator.SEA_CREATURES];
-  static DESCRIPTORS = [...Generator.ADJECTIVE_DESCRIPTORS, ...Generator.SIZE_DESCRIPTORS];
+  static DESCRIPTORS = [...Generator.ADJECTIVE_DESCRIPTORS, ...Generator.SIZE_DESCRIPTORS, ...Generator.CREATURE_DESCRIPTORS];
 
   #words = {
     colors: Generator.COLORS,
