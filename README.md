@@ -65,7 +65,7 @@ new Generator({
 ```
 
 ##### `Generator.getColors()`, `Generator.getNouns()`, `Generator.getDescriptors()`
-These functions return `colors`, `nouns`, `descriptors`, and `size`, respectively. They do not clone the array, so be careful while modifying it.
+These functions return `colors`, `nouns`, and `descriptors` respectively. They do not clone the array, so be careful while modifying it.
 
 ##### `Generator.getSize()`
 Returns the current maximum username size of the generator.
